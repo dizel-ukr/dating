@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>meowdating.com</title>
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!--SCRIPT-->
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/scripts.js"></script>
+
+</head>
+<body>
+
+<section class="header">
+    <div class="header__wrapper">
+        <a href="/" class="header__logo"></a>
+
+        <div class="header__profile">
+            <a href="/" class="header__link">my profile</a>
+            <a href="/" class="header__link">upgrade</a>
+            <a href="/" class="header__link">messages <span>12</span></a>
+            <img class="header__profile-photo" src="img/photo/profile-photo.jpg">
+        </div>
+    </div>
+</section>
+<section class="content">
+    <div class="content__wrapper">
+        <section class="menu">
+            <div class="menu__item-wrapper">
+                <span class="menu__item">home</span>
+            </div>
+            <div class="menu__item-wrapper">
+                <span class="menu__item">hot or not</span>
+            </div>
+            <div class="menu__item-wrapper">
+                <span class="menu__item">messages</span>
+            </div>
+            <div class="menu__item-wrapper js-active-page">
+                <span class="menu__item">new users</span>
+            </div>
+            <div class="menu__item-wrapper">
+                <span class="menu__item">my kisses</span>
+            </div>
+            <div class="menu__item-wrapper">
+                <span class="menu__item">my friends</span>
+            </div>
+            <div class="menu__item-wrapper">
+                <span class="menu__item">my visitors</span>
+            </div>
+        </section><!--
+        --><section class="container">
+            <span class="container__title">Homepage</span>
+            <div class="container__menu">
+                <div class="container__menu-item js-active">
+                    <span class="container__menu-text">All <strong>502</strong></span>
+                </div>
+                <div class="container__menu-item">
+                    <span class="container__menu-text">Online <strong>24</strong></span>
+                </div>
+                <div class="container__menu-item">
+                    <span class="container__menu-text">New users <strong>0</strong></span>
+                </div>
+
+                <div class="container__search">
+                    search
+                    <span class="js-search">Option <i></i></span>
+
+                    <div class="container__search-form js-search-form">
+                        <form action="">
+                            <div class="container__search-row">
+                                <p class="container__search-text">Age</p>
+                                <input type="text" id="minCost" value="18"/>
+                                <input type="text" id="maxCost" value="50"/>
+                                <div id="slider"></div>
+                            </div>
+                            <div class="container__search-row">
+                                <p class="container__search-text">Country</p>
+                                <input class="container__search-input" type="text">
+                            </div>
+                            <div class="container__search-row">
+                                <p class="container__search-text">City</p>
+                                <input class="container__search-input" type="text">
+                            </div>
+
+                            <input class="container__search-submit" type="submit" value="START SEARCH">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container__users">
+
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+                <div class="user">
+                    <div class="user__photo-wrapper">
+                        <img src="img/photo/phalyn-photo.jpg" alt="phalyn" class="user__photo">
+                    </div>
+                    <span class="user__name">
+                        phalyn
+                        <span>,</span>
+                        <span class="user__age">21</span>
+                    </span>
+                    <span class="user__country">United State</span>
+                    <span class="user__quantity">Photos: <span class="js-photo-quantity">2</span></span>
+
+                </div>
+
+            </div>
+            <div class="container__pages">
+                <div class="container__pager container__pager_prev"></div>
+                <div class="container__page">1</div>
+                <div class="container__page js-page-active">2</div>
+                <div class="container__page container__page_last">3</div>
+                <div class="container__pager container__pager_next"></div>
+            </div>
+        </section>
+    </div>
+</section>
+<section class="footer">
+    <div class="footer__wrapper">
+        <span class="footer__copy">&copy; 2016 meowdating.com</span>
+        <a href="" class="footer__link">Succces Stories</a>
+        <a href="" class="footer__link">About Us</a>
+        <a href="" class="footer__link">Help</a>
+        <a href="" class="footer__link">Contact Us</a>
+        <a href="" class="footer__link">Log off</a>
+
+        <div class="footer__social footer__social_fb"></div>
+        <div class="footer__social footer__social_twit"></div>
+        <div class="footer__social footer__social_g"></div>
+    </div>
+</section>
+<script>
+    var slider = $('#slider');
+    slider.slider({
+        min: 18,
+        max: 50,
+        values: [18,50],
+        range: true,
+        stop: function(event, ui) {
+            $("input#minCost").val(slider.slider("values",0));
+            $("input#maxCost").val(slider.slider("values",1));
+        },
+        slide: function(event, ui){
+            $("input#minCost").val(slider.slider("values",0));
+            $("input#maxCost").val(slider.slider("values",1));
+            var x  = slider.find(".ui-slider-handle").css("left");
+            console.log(x);
+
+        }
+    });
+
+    $('.js-search').on('click', function(){
+        if ($('.js-search-form').is(':visible')){
+            $('.js-search-form').hide();
+        } else {
+            $('.js-search-form').show();
+        }
+    });
+</script>
+</body>
+</html>
